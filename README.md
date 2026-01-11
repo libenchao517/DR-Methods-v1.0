@@ -1,7 +1,7 @@
-## DR-Methods
+# DR-Methods
 DR-Methods软件包中提供了一些常见的降维方法。下面是这些降维方法的案例以及参考文献。
 
-### 案例
+## 案例
 - Two Dimensional PCA [1]
 ```python
 from DR import TD_PCA
@@ -62,7 +62,7 @@ images, target = mnist["data"].to_numpy(), mnist["target"].to_numpy()
 embedding = Neighborhood_Preserving_Embedding().fit_transform(data=images)
 ```
 
-### 参考文献
+## 参考文献
 ```
 [1] Yang J, Zhang D, Frangi A F, et al. Two-dimensional PCA: a new approach to appearance-based face representation and recognition[J]. IEEE transactions on pattern analysis and machine intelligence, 2004, 26(1): 131-137.
 [2] Zhang D, Zhou Z H. (2D) 2PCA: Two-directional two-dimensional PCA for efficient face representation and recognition[J]. Neurocomputing, 2005, 69(1-3): 224-231.
